@@ -43,6 +43,13 @@ includestd <- grep("std",names(dataset))
 inclusion <- c(includemean, includestd)
 dataset_first<-select(dataset, 1:2, inclusion)
 
+## Rename column labels
+names(dataset_first)<- gsub("tBody","timeBody",names(dataset_first))
+names(dataset_first)<- gsub("tGravity","timeGravity",names(dataset_first))
+names(dataset_first)<- gsub("fBody","frequencyBody",names(dataset_first))
+names(dataset_first)<- gsub("Acc","Accelerometer",names(dataset_first))
+names(dataset_first)<- gsub("std","standarddeviation",names(dataset_first))
+
 ## Create second dataset
 dataset_second <- dataset_first %>% group_by(subject, activity)%>% summarize_all(mean)
 
