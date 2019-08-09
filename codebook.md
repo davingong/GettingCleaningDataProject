@@ -9,11 +9,11 @@ First Dataset ("dataset_first")
         activity:
         Factor: Activities performed by subject
         WALKING
-	WALKING_UPSTAIRS
-	WALKING_DOWNSTAIRS
-	SITTING
-	STANDING
-	LAYING
+	    WALKING_UPSTAIRS
+	    WALKING_DOWNSTAIRS
+	    SITTING
+	    STANDING
+	    LAYING
 	
 	Captured variables 
 	Number: data recorded by wearables, units in g, across means and standard deviations.
@@ -93,11 +93,11 @@ Second Dataset ("dataset_second")
         activity:
         Factor: Activities performed by subject
         WALKING
-	WALKING_UPSTAIRS
-	WALKING_DOWNSTAIRS
-	SITTING
-	STANDING
-	LAYING
+	    WALKING_UPSTAIRS
+	    WALKING_DOWNSTAIRS
+	    SITTING
+	    STANDING
+	    LAYING
 	
 	Captured variables 
 	Number: these variables from dataset_first (units in g) are summarized by subject and activities
