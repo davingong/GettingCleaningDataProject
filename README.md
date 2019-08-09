@@ -11,3 +11,5 @@ Lines 33 - 38 binds the datasets together
 Lines 40 - 44 selects appropriate columns
 
 Lines 46 - 47 create second summary dataset.
+
+## There is also a codebook ("codebook.md") that describe the variables.
