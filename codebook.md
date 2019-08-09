@@ -15,8 +15,8 @@ First Dataset ("dataset_first")
 	    STANDING
 	    LAYING
 	
-	Captured variables 
-	Number: data recorded by wearables, units in g, across means and standard deviations.
+	    Captured variables 
+	    Number: data recorded by wearables, units in g, across means and standard deviations.
         [3] "timeBodyAccelerometer-mean()-X"                           
         [4] "timeBodyAccelerometer-mean()-Y"                           
         [5] "timeBodyAccelerometer-mean()-Z"                           
@@ -99,8 +99,8 @@ Second Dataset ("dataset_second")
 	    STANDING
 	    LAYING
 	
-	Captured variables 
-	Number: these variables from dataset_first (units in g) are summarized by subject and activities
+	    Captured variables 
+	    Number: these variables from dataset_first (units in g) are summarized by subject and activities
         [3] "timeBodyAccelerometer-mean()-X"                           
         [4] "timeBodyAccelerometer-mean()-Y"                           
         [5] "timeBodyAccelerometer-mean()-Z"                           
